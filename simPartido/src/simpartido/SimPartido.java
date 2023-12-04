@@ -28,7 +28,7 @@ public class SimPartido {
         mostrarEstadisticas(golesEquipoA, golesEquipoB);
 
         if (golesEquipoA == golesEquipoB) {
-            System.out.println("Empate. Se simularán los penales.");
+            System.out.println("Empate. Se simularan los penales.");
             // Aquí puedes simular la tanda de penales y actualizar los resultados
         } else {
             String equipoGanador = (golesEquipoA > golesEquipoB) ? "Equipo A" : "Equipo B";
@@ -56,7 +56,7 @@ public class SimPartido {
     }
 
     private static void mostrarEstadisticas(int golesEquipoA, int golesEquipoB) {
-        System.out.println("ESTADÍSTICAS DEL PARTIDO:");
+        System.out.println("ESTADISTICAS DEL PARTIDO:");
         System.out.println("Goles Equipo A: " + golesEquipoA);
         System.out.println("Goles Equipo B: " + golesEquipoB);
     }
